@@ -8,10 +8,10 @@ plain_host_names: yes
 #  key: tags
 #- prefix: azure_location
 #  key: location
-include_vm_resource_groups:
-- HI4142-PoC-RG-05Jul22
-- HI4142-PoC-RG-30Aug2022
-- HI4142-RG-190722
+#include_vm_resource_groups:
+#- HI4142-PoC-RG-05Jul22
+#- HI4142-PoC-RG-30Aug2022
+#- HI4142-RG-190722
 hostvar_expressions:
   ansible_host: public_ipv4_addresses | first
 conditional_groups:
